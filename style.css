@@ -38,7 +38,7 @@ body{
 }
 
 #nav-wrapper li:hover {
-    background-color: cornflowerblue;
+    background-color: mediumseagreen;
     border-radius: 3px;
     cursor:pointer;
 }
@@ -84,6 +84,7 @@ body{
 #slider{
     overflow:hidden;
     margin-top: 5px;
+    position: relative;
 }
 
 #slider figure img{
@@ -103,20 +104,19 @@ body{
 }
 #slider-info {
     box-sizing: border-box;
-    width: 600px;
-    height: 400px;
+    width: 70%;
+    height: 61%;
     text-align: center;
     background-color: rgba(130, 130, 130, 0.5);
     z-index:1;
     border:5px solid black;
     position: absolute;
-    top:125px;
-    left: 390px;
-    padding-top: 110px;
+    top:20%;
+    left: 15%;
     font-family: Dosis;
     font-size: 30px;
     border-radius: 5px;
-
+    padding-top: 30px;
 }
 
 #services-header {
@@ -335,8 +335,16 @@ body{
     margin:20px 0 20px 0; 
 }
 /*mobiles*/
-@media screen and (max-width:480px){
-    body{
-        background-color: red;
+@media screen and (max-width:768px){
+    #slider-info{
+        font-size:15px;
+        padding-top: 20px;
+    }
+
+    .service .service-info p{
+        margin-top: 1px;
+    }
+    .box {
+        width: 43.095%;
     }
 }
