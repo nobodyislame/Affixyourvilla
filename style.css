@@ -398,11 +398,125 @@ body{
     #timing i {
         font-size: 30px;
     }
+    .service .service-info p {
+        font-size: 17px;
+    }
+}
+/*Mobile Phone Galaxy Y Level*/
+@media screen and (max-width: 240px){
+    #slider{
+        width:100%;
+    }
+    #slider figure img {
+        height: 35%;
+    }
+    #slider-info{
+        font-size: 6.5px;
+        font-weight: bold;
+        padding-top: 0px;
+    }
+    #logo-wrapper{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 5px 0px 0px 0px;
+    }
+    #nav-wrapper{
+        width: 100%;
+        float:none;
+    }
+
+    #nav-wrapper ul{
+        text-align: center;
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+
+    #nav-wrapper li{
+        list-style-type: none;
+        display:inline;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    #navigation{
+        height: 120px;
+    }
+    .service{
+        width: 96%;
+    }
+    .service:nth-child(4){
+        margin-left:1%;
+    }
+    #services-wrapper{
+        height: 1580px;
+    }
+    #timing p {
+        font-size: 17px;
+    }
+    
+    #timing i {
+        font-size: 17px;
+    }
+
+    #info-header {
+        font-size: 30px;
+        margin:40px 10px 10px 10px;
+    }
+
+    #info{
+        line-height: 30px;
+        word-spacing: 3px;
+    }
+
+    #info i {
+        font-size: 16px;
+    }
+    #info p {
+        font-size: 16px;
+    }
+    #footer{
+        height: 120px;
+        text-align: center
+    }
+    #blogs {
+        position: relative;
+        top:0px;
+        right: 0px;
+    }
+    #blogs ul{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .content {
+        font-size: 17px;
+    }
+    .boxes{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 82%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .box i {
+        font-size: 60px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+    #note{
+        font-size: 20px;
+        margin:20px 0 0 0; 
+    }
 }
 
 /*Mobile Phone I-phone5 Level*/
-
-@media screen and (max-width:320px){
+@media screen and (min-width:320px) and (max-width:360px){
     #slider{
         width:100%;
     }
@@ -511,4 +625,117 @@ body{
         font-size: 20px;
         margin:20px 0 0 0; 
     }
-} 
+}
+
+/*Mobile Phone Nokia Lumia Level*/
+@media screen and (min-width:460px) and (max-width:480px){
+    #slider{
+        width:100%;
+    }
+    #slider figure img {
+        height: 35%;
+    }
+    #slider-info{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #logo-wrapper{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 5px 0px 0px 0px;
+    }
+    #nav-wrapper{
+        width: 100%;
+        float:none;
+    }
+
+    #nav-wrapper ul{
+        text-align: center;
+        margin-top: 5px;
+        padding-left: 0px;
+    }
+
+    #nav-wrapper li{
+        list-style-type: none;
+        display:inline;
+        padding: 10px;
+        margin-left: 0px;
+    }
+    #navigation{
+        height: 120px;
+    }
+    .service{
+        width: 96%;
+    }
+    .service:nth-child(4){
+        margin-left:1%;
+    }
+    #services-wrapper{
+        height: 1580px;
+    }
+    #timing p {
+        font-size: 17px;
+    }
+    
+    #timing i {
+        font-size: 17px;
+    }
+
+    #info-header {
+        font-size: 30px;
+        margin:40px 10px 10px 10px;
+    }
+
+    #info{
+        line-height: 30px;
+        word-spacing: 3px;
+    }
+
+    #info i {
+        font-size: 20px;
+    }
+    #info p {
+        font-size: 20px;
+    }
+    #footer{
+        height: 120px;
+        text-align: center
+    }
+    #blogs {
+        position: relative;
+        top:0px;
+        right: 0px;
+    }
+    #blogs ul{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .heading {
+        font-size: 20px;
+    }
+    .content {
+        font-size: 17px;
+    }
+    .boxes{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 91%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .box i {
+        font-size: 60px;
+    }
+
+    .box p {
+        font-size: 15px;
+    }
+    #note{
+        font-size: 20px;
+        margin:20px 0 0 0; 
+    }
+}
+
