@@ -1,0 +1,283 @@
+/*media queries*/
+/*Big tablets to 1200px*/
+@media only screen and (max-width:1200px){
+    
+}
+
+/*Small tablet to big tablets*/
+@media only screen and (max-width:1023px){
+    #slider-info{
+        padding-top:40px;
+    }
+    .details{
+        min-height: 272.38px;
+    }
+    #slider-info h1{
+        font-size: 140%;
+        font-weight: bolder;
+    }
+    #timing{
+        font-size: 90%;
+    }
+    #info-header{
+        font-size: 90%;
+        margin-top: 50px;
+    }
+    #info{
+        font-size: 80%;
+    }
+    #section img{
+        width: 130px;
+        height: 80px;
+    }
+    #section p{
+        padding: 10px;
+        font-size: 35%;
+    }
+    footer{
+        font-size: 35%;
+        padding: 10px 10px 0px 10px;;
+    }
+    #blogs{
+        top:15px;
+        right: 10px;
+    }
+    .box{
+        min-height: 260px;
+        margin-top: 20px;
+    }
+    #note{
+        font-size: 60%;
+    }
+}
+
+/*Small phones to small tablets : from 484px to 767px*/
+/*But 480 is the standard*/
+@media only screen and (max-width:767px){
+    #slider{
+        margin-top: 50px;
+    }
+    #slider-info{
+        padding:10px 30px 0px 30px;
+        
+    }
+    #slider-info h1{
+        font-size: 100%;
+        font-weight: bolder;
+        letter-spacing: 0;
+    }
+    nav img{
+        height: 50px;
+        width: 169px;
+    }
+    nav ul{
+        margin-top:-10px;
+    }
+    nav li{
+        padding: 17px 13px 14px 13px;
+        font-size: 50%;
+    }
+    #services-header{
+        font-size: 80%;
+    }
+    .service{
+        margin-bottom: 5px;
+    }
+    .details{
+        min-height: 196.84px;
+        margin-bottom: 5px;
+    }
+    .service h2{
+        font-size: 60%;
+    }
+    .service img{
+        width: 100px;
+        height: 100px;
+    }
+    .service p, .details p{
+        margin-bottom: 0px;
+        padding: 5px;
+        font-size: 40%;
+    }
+    #timing{
+        font-size: 55%;
+    }
+    #info-header{
+        font-size: 70%;
+        margin-top: 30px;
+    }
+    #info{
+        font-size: 50%;
+        margin: 5px;
+        padding: 5px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+    }
+    #section{
+        margin-top: 5px;
+        padding: 12px;
+    }
+    #section img{
+        width: 100px;
+        height: 60px;
+    }
+     #section p{
+        padding: 5px;
+        font-size: 30%;
+    }
+    
+    #main{
+        margin-top: 55px;
+    }
+    .heading{
+        font-size: 50%;
+    }
+    .content{
+        font-size: 35%;
+    }
+    .box{
+        margin-top: 10px;
+        min-height: 180px;
+    }
+    .box i {
+        font-size: 100%;
+        padding-bottom: 10px;
+    }
+    .box h1{
+        margin: 0;
+        font-size: 50%;
+    }
+    .box p {
+        margin-top: 8px;
+        font-size: 40%;
+    }
+    footer{
+        font-size: 28%;
+        padding: 8px 8px 0px 8px;
+    }
+    #blogs img{
+        width: 25px;
+        height: 25px;
+    }
+    #note{
+        font-size: 40%;
+    }
+}
+
+
+/*Small Phones from 0 to 480px*/
+@media only screen and (max-width: 483px){
+    nav img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    nav ul{
+        padding-left: 0;
+        float: none;
+        text-align: center;
+    }
+    nav li {
+        padding: 10px;
+        font-size: 35%;
+    }
+    #slider{
+        margin-top: 97px;
+    }
+    #slider-info{
+        padding-top:10px;
+    }
+    #slider-info h1{
+        margin: 0;
+        font-size: 70%;
+    }
+    #services-header{
+        font-size: 50%;
+    }
+    .service h2{
+        font-size: 40%;
+    }
+    .service img{
+        width: 80px;
+        height: 80px;
+    }
+    .service p, .details p{
+        padding: 3px;
+        font-size: 32%;
+    }
+    .details{
+        min-height: 160.66px;
+    }
+    .data{
+        padding: 3px 3px 0px 3px;
+    }
+    .data li{
+        font-size: 43%;
+        margin-bottom: 2px;
+        margin-right: 2px;
+        padding: 3px;
+    }
+    #timing{
+        font-size: 40%;
+    }
+     #info-header{
+        font-size: 50%;
+        margin-top: 15px;
+    }
+    #info{
+        font-size: 38%;
+        margin: 2px;
+        padding: 2px;
+        line-height: 30px;
+        letter-spacing:0.02em;
+    }
+    #section{
+        padding: 0px 0px 12px 0px;
+        margin-top: 0;
+    }
+    #section img{
+        top:5px;
+        width: 80px;
+        height: 45px;
+    }
+     #section p{
+        padding: 2px;
+        font-size: 27%;
+        margin-left:10%;
+    }
+    #main{
+        margin-top: 97px;
+    }
+    .heading{
+        font-size: 45%;
+        margin-top: 10px;
+    }
+    .content{
+        font-size: 30%;
+    }
+    .box{
+        margin-top: 10px;
+        padding: 10px;
+        min-height: 180px;
+    }
+    .box i {
+        font-size: 80%;
+        padding-bottom: 7px;
+    }
+    .box h1{
+        margin: 0;
+        font-size: 40%;
+    }
+    .box p {
+        margin-top: 5px;
+        font-size: 32%;
+    }
+    #note{
+        font-size: 35%;
+        margin-bottom: 2px;
+    }
+    footer{
+        margin-top: 5px;
+    }
+}

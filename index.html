@@ -1,28 +1,32 @@
 <html>
     <head>
         <title>Affixyourvilla | Home</title>
-        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/queries.css">
+        
         <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     </head>
     <body>
-        <div id="container">
-            <div id="navigation">
-                <div id="logo-wrapper">
-                    <a href="index.html"><img src="img/logo.png"></a>
-                </div>
-                <div id="nav-wrapper">
-                    <ul>
-                        <li><a href="index.html">HOME</a> </li>
-                        <li><a href="about.html">ABOUT</a> </li>
-                    </ul>
-                </div>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png">
+                </a>
+                <ul>
+                    <li><a href="index.html">HOME</a> </li>
+                    <li><a href="views/about.html">ABOUT US</a> </li>
+                </ul>
                 <div class="clearfix"></div>
-            </div>
+            </nav>
+        </header>
+        <section>
             <div id="slider">
                 <figure>
                     <img src="img/kitchen1.jpg">
@@ -40,108 +44,175 @@
                    </h1> 
                 </div>
             </div>
-            <div id="services-header">
-                Our Services
-            </div>
-            <div id="services-wrapper">
-                <div class="service">
-                    <div class="service-image-wrapper">
-                        <div class="header">
-                            Electrician
-                        </div>
-                        <div class="image">
-                            <img src="img/electrical.png">
-                        </div>
-                    </div>
-                    <div class="service-info">
-                        <p>Sockets, Electrical repair and many more</p>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div id="services-header">
+                        Our Services
                     </div>
                 </div>
-                <div class="service">
-                    <div class="service-image-wrapper">
-                        <div class="header">
-                            Carpentar
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service">
+                            <h2>Electrician</h2>
+                            <img src="img/electrical.png"> 
+                            <p>Sockets, Electrical repair and many more</p>
                         </div>
-                        <div class="image">
+
+                        <div class="details">
+                            <p>Sockets, Electrical repair and many more</p>
+                            <div class="data">
+                                <ul>
+                                    <li>wiring issues</li>
+                                    <li>sockets & holder repair</li>
+                                    <li>switch & meter installation</li>
+                                    <li>extension</li>
+                                    <li>lightning for home</li>
+                                    <li>fancy lightning</li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="service">
+                            <h2>Carpentar</h2>
                             <img src="img/carpentar.png">
+                            <p>Furnitures, Doors , Tables and many more</p>
+                        </div>
+
+                        <div class="details">
+                            <p>Furnitures, Doors , Tables and many more</p>
+                            <div class="data">
+                                <ul>
+                                    <li>assembling furniture</li>
+                                    <li>tables</li>
+                                    <li> cupboards</li>
+                                    <li>ceilings</li>
+                                    <li>fix doors</li>
+                                    <li>locks</li>
+                                    <li>hinges</li>
+                                    <li>windows</li>
+                                    <li>room renovation</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="service-info">
-                        <p>Furnitures, Doors , Tables and many more</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-image-wrapper">
-                        <div class="header">
-                            Plumber
-                        </div>
-                        <div class="image">
+                    
+                    <div class="col-md-4">
+                        <div class="service">
+                            <h2>Plumber</h2>
                             <img src="img/plumber.png">
+                            <p>Pipes, Fittings WC Cistern and many more</p>
                         </div>
-                    </div>
-                    <div class="service-info">
-                        <p>Pipes, Fittings WC Cistern and many more</p>
-                    </div>
+
+                        <div class="details">     
+                            <p>Pipes, Fittings WC Cistern and many more</p>
+                            
+                            <div class="data">
+                                <li>washbasin</li>
+                                <li>taps</li>
+                                <li> kitchen sink</li>
+                                <li>fittings</li>
+                                <li>toilet sanitary works</li>
+                                <li>shower</li>
+                                <li>flush tank</li>
+                                <li> bathroom pipes</li>
+                                <li>cistern leakages</li>
+                            </div>
+                        </div>
+                    </div>     
                 </div>
-                <div class="service">
-                    <div class="service-image-wrapper">
-                        <div class="header">
-                            Painter
+                
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-4">
+                        <div class="service">
+                            <h2>Painter</h2>
+                            <img src="img/painter.png">     
+                            <p>Painting Solutions and many more</p>
                         </div>
-                        <div class="image">
-                            <img src="img/painter.png">
+
+                        <div class="details">
+                            <p>Painting Solutions and many more</p>
+                        
+                            <div class="data">
+                                <li>Interior paintings</li>
+                                <li>exterior paintings</li>
+                                <li>other painting solutions</li>
+                            </div>
                         </div>
                     </div>
-                    <div class="service-info">
-                        <p>All types of Painting Solutions and many more</p>
-                    </div>
-                </div>
-                <div class="service">
-                    <div class="service-image-wrapper">
-                        <div class="header">
-                            AC, Refrigerator & Inverter
-                        </div>
-                        <div class="last-image">
+                    
+                    <div class="col-md-4">
+                        <div class="service">
+                            <h2>Home Appliances</h2>   
                             <img src="img/ac.png">
+                            <p>Installation and Servicing Solutions</p>
                         </div>
-                    </div>
-                    <div class="service-info">
-                        <p>Installation and Servicing Solutions and many more</p>
-                    </div>
+
+                        <div class="details">
+                            <p>Installation and Servicing Solutions</p>
+                            
+                            <div class="data">
+                                <li>cooling issues</li>
+                                <li>foul smell of refrigerator</li>
+                                <li>fix Geysers</li>
+                                <li>Mobile & Tablets solutions</li>
+                                <li>inverter installations</li>
+                            </div>
+                        </div>
+                    </div>    
                 </div>
-                <div class="clearifx"></div>
             </div>
-            <div id="timing">
-                <i class="fa fa-clock-o" aria-hidden="true"></i>
-                <p>We function from 8:00 a.m - 6:00 pm daily</p>
+        </section>
+        <div class="container">
+            <div class="row">
+                <section id="timing" class="underline">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <p>We function from 8:00 a.m - 6:00 pm daily</p>
+                </section>
             </div>
-            <div id="info-header">
+        </div>
+        <div class="container">
+            <section id="info-header">
                 <span class="underline"> find us through </span>
-            </div>
-            <div id="info">
+            </section>
+            <article id="info">
                 <i class="fa fa-phone-square" aria-hidden="true"></i><p> call us at <b> 9856301817/9856301819</b></p> <br>
                 <i class="fa fa-whatsapp" aria-hidden="true"></i>
                 <p>whatsapp us at <b> 9856301817 </b></p> <br>
                 <i class="fa fa-facebook-official" aria-hidden="true"></i>
                 <p>our facebook page <b> facebook.com/affixyourvilla </b></p><br>
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <p>drop us a mail at <b>www.affixyourvilla@gmail.com </b></p>
-                
-            </div>
-            <div id="footer">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <p>Address : House No. 7,</p> <br>
-                <p>Nepali Bosti, Dimapur,</p><br>
-                <p>797112, Nagaland</p>
-                <div id="blogs">
-                    <ul>
-                        <li><img src="img/facebook.png"></li>
-                        <li><img src="img/twitter.png"></li>
-                        <li><img src="img/gmail.png"></li>
-                        <li><img src="img/linkedin.png"></li>
-                    </ul>
+                <p>drop us a mail at <b>affixyourvilla@gmail.com </b></p>
+            </article>
+            <div class="row" id="section">
+                <div class="col-md-offset-2 col-md-2">
+                    <img src="img/paytm.png">
+                </div>
+                <div class="col-md-6">
+                    <p>We accept our payment through Paytm also.</p>
                 </div>
             </div>
         </div>
+        
+        <footer>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p>Address : House No. 7,</p> <br>
+            <p>Nepali Bosti, Dimapur,</p><br>
+            <p>797112, Nagaland</p>
+            <div id="blogs">
+                <ul>
+                    <li><img src="img/facebook.png"></li>
+                    <li><img src="img/twitter.png"></li>
+                    <li><img src="img/gmail.png"></li>
+                    <li><img src="img/linkedin.png"></li>
+                </ul>
+            </div>
+            <p id="copy">All Rights Reserved, &copy; 2017</p>
+        </footer>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
     </body>
 </html>

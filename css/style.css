@@ -1,0 +1,369 @@
+/*Commons*/
+body{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+/*Navigation Styles*/
+header{
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 2;
+    background-color: darkslategrey;
+    opacity: 0.9;
+}
+nav img{
+    height: 65px;
+    width: 200px;
+    margin-left: 5%;
+    float:left;
+}
+
+nav ul{
+    margin:0;
+    float: right;
+}
+
+nav li{
+    list-style-type: none;
+    display:inline-block;
+    padding:20px;
+    font-size: 48%;
+}
+
+li a {
+    color: white;
+    font-family: Dosis;
+    font-weight: bold;
+}
+
+nav li:hover{
+    background-color: dimgrey;
+    cursor:pointer;
+}
+nav li:link,nav li:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix{
+    display: block;
+    content: "";
+    clear: both;
+}
+/*Index Page Styles*/
+
+/*Slider Styles and Animations*/
+@keyframes slider {
+    0%{
+        left:0;
+    }
+    30%{
+        left:0%;
+    }
+    35%{
+        left:-100%;
+    }
+    65%{
+        left:-100%;
+    }
+    70%{
+        left:-200%;
+    }
+    100%{
+        left:-200%;
+    }
+}
+
+#slider{
+    overflow:hidden;
+    position: relative;
+    margin-top: 67px;
+}
+
+#slider figure img{
+    width:33.3%;
+    float: left;
+}
+
+#slider figure {
+    background: rgba(100,100,100,0.5);
+    position: relative;
+    width: 300.3%;
+    margin:0;
+    left:0;
+    text-align: left;
+    font-size: 0;
+    animation:10s slider infinite;
+
+}
+#slider-info {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(130, 130, 130, 0.5);
+    z-index:1;
+    position: absolute;
+    top:0;
+    font-family: Dosis;
+    padding: 50px 120px 0px 120px;;
+    letter-spacing: 0.1em;
+    color:#fff;
+}
+#slider-info h1{
+    font-size: 200%;
+    font-weight: 1000;
+}
+
+#services-header {
+    font-size: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-family: Ubuntu;
+    color:darkslategrey;
+}
+
+/*Service Showcase Styles*/
+.service{
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: dimgrey;
+    cursor: pointer;
+    transition: display 0.5s linear;
+    text-align: center;
+}
+.details{
+    min-height: 265.19px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: dimgrey;
+    cursor: pointer;
+    display: none;
+    transition: display 0.5s linear;
+    text-align: center;
+}
+.service h2{
+    color: whitesmoke;
+    font-family: Poiret One;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.service img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.service p, .details p {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
+    background-color: darkslategrey;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Dosis;
+    font-size:50%;
+}
+
+.data{
+    padding: 10px;
+    font-family: Ubuntu;
+    text-align: center;
+    font-size: 50%
+}
+.data ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+.data li{
+    display: inline-block;
+    font-size:60%;
+    padding: 7px;
+    background: darkslategrey;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+/*Timing Styles*/
+#timing{
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 100%;
+    font-family: Ubuntu;
+    color: dimgrey;
+}
+#timing p {
+    display: inline;
+}
+
+/*Underline Styles*/
+.underline{
+    border-bottom: 1px solid dimgrey;
+}
+
+/*Contact styles*/
+#info-header {
+    font-size: 100%;
+    text-align: center;
+    margin:100px 10px 10px 10px;
+    font-family: Poiret One;
+    color:dimgrey;
+}
+
+#info{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    font-size: 100%;
+    color:dimgrey;
+    font-family: Dosis;
+}
+
+#info p {
+    display: inline;
+}
+
+/*Paytm Section Styles*/
+#section{
+    width: 100%;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+}
+#section img{
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top:10px;
+}
+#section p {
+    padding: 20px;
+    font-family: Ubuntu;
+    font-size: 50%;
+    color: dimgrey;
+    font-weight: bold;
+    position: relative;
+    top:25px;
+    border-radius: 50px;
+    border: 2px solid darkslategrey;
+}
+/*Footer Styles*/
+footer{
+    background:darkslategrey;
+    margin-top:10px;
+    padding: 10px 10px 0px 10px;;
+    position: relative;
+    font-family: Ubuntu;
+    color: white;
+    font-size: 45%;
+}
+footer p{
+    display: inline;
+}
+
+#copy{
+    padding: 0;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#blogs {
+    position:absolute;  
+    top:20px;
+    right:10px;
+}
+
+#blogs img{
+    width:40px;
+    height: 40px;
+    display: inline;
+}
+
+#blogs ul {
+    text-align: right;
+}
+#blogs li {
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+}
+
+
+/*About Page Styles*/
+
+/*Section Base Styles*/
+#main{
+    margin-top: 75px;
+    color: dimgrey;
+}
+.heading {
+    margin-top: 30px;
+    font-family: Poiret One;
+    text-align: center;
+    font-size: 90%;
+}
+
+/*Content Styles*/
+.content{
+    text-align: justify;
+    margin-top: 10px;
+    font-family: Dosis;
+    font-size: 48%;
+    color: dimgrey;
+} 
+
+/*Box Styles*/
+.box{
+    min-height: 416px;
+    width: 100%;
+    padding: 10px 20px 10px;
+    text-align: center;
+    background-color: dimgrey;
+    margin-top: 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: Dosis;
+}
+
+.box i {
+    font-size: 200%;
+}
+
+.box p {
+    font-size: 50%;
+}
+
+/*Note Styles*/
+#note{
+    font-family: Poiret One;
+    font-size: 82%;
+    color: dimgrey;
+    text-align: center;
+    margin:20px 0 20px 0; 
+    font-weight: 700;
+}
